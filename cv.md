@@ -23,3 +23,7 @@
 - Individual entrepreneur
 
 ### Languages:
+
+- Belorussian
+- Russian
+- English
