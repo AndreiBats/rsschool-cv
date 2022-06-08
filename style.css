@@ -30,7 +30,7 @@ html {
 }
 
 .header__link {
-  padding: 0 20px;
+  padding: 10px 20px;
   line-height: 50px;
   text-decoration: none;
   color: white;
@@ -74,4 +74,9 @@ html {
 .footer__container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.information {
+  padding: 50px;
 }
