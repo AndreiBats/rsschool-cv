@@ -34,7 +34,7 @@
               <a class="header__link" href="#Languages">Languages</a>
             </li>
             <li>
-              <a class="header__link" href="#Courses">#Courses</a>
+              <a class="header__link" href="#Courses">Courses</a>
             </li>
             <li>
               <a class="header__link" href="#Contacts">Contacts</a>
@@ -43,34 +43,90 @@
         </nav>
       </div>
     </header>
+
     <main class="main">
       <div class="main__container container">
-        <section class="section__profile section">
-          <img src="./essets/img/IMG_3019 (1).JPG" alt="Andrei Batsenkou" />
-          <h1 class="section__profile-title">Andrei Batsenkou</h1>
+        <section class="profile">
+          <img
+            src="./essets/img/IMG_3019 (1).JPG"
+            alt="Andrei Batsenkou"
+            class="profile__photo"
+          />
+          <div class="profile__description">
+            <h1 class="profile__title">Andrei Batsenkou</h1>
+            <h3 class="profile__subtitle">Front-end Developer Beginner</h3>
+          </div>
         </section>
-        <section class="section__skills section">
-          <h2 class="section__skills-title">Skills</h2>
+
+        <section class="contacts">
+          <div class="contacts__information information">
+            <h2 class="contacts__title">Contacts</h2>
+            <ul class="contacts__list">
+              <li class="contacts__item">Location: Minsk, Belarus</li>
+              <li class="contacts__item">E-mail: Batsenkou@tut.by</li>
+              <li class="contacts__item">Discord: Bats</li>
+            </ul>
+          </div>
         </section>
-        <section class="section__education section">
-          <h2 class="section__education-title">Education</h2>
+
+        <section class="skills">
+          <div class="skills__information information">
+            <h2 class="skills__title">Skills</h2>
+            <ul class="skills__list">
+              <li class="skills__item">HTML</li>
+              <li class="skills__item">CSS</li>
+              <li class="skills__item">JS</li>
+            </ul>
+          </div>
         </section>
-        <section class="section__experience section">
-          <h2 class="section__experience-title">Experience</h2>
+
+        <section class="education section">
+          <div class="education__information information">
+            <h2 class="education__title">Education</h2>
+            <p>Belarusian National Technical University</p>
+          </div>
         </section>
-        <section class="section__languages section">
-          <h2 class="section__languages-title">Languages</h2>
+
+        <section class="experience section">
+          <div class="experience__information information">
+            <h2 class="experience__title">Experience</h2>
+            <p>Belarusian National Technical University</p>
+          </div>
         </section>
-        <section class="section__courses section">
-          <h2 class="section__courses-title">Courses</h2>
+
+        <section class="languages section">
+          <div class="languages_information information">
+            <h2 class="languages__title">Languages</h2>
+            <ul class="languages__list">
+              <li class="languages__item">Belarusian</li>
+              <li class="languages__item">Russian</li>
+              <li class="languages__item">English</li>
+            </ul>
+          </div>
         </section>
-        <section class="section__contacts section">
-          <h2 class="section__contacts-title">Contacts</h2>
+
+        <section class="courses section">
+          <div class="courses__information information">
+            <h2 class="courses__title">Courses</h2>
+            <p>RS School</p>
+          </div>
         </section>
       </div>
     </main>
     <footer class="footer">
-      <div class="footer__container container"></div>
+      <div class="footer__container container">
+        <a href="https://github.com/AndreiBats"
+          ><img src="./essets/img/git.png" alt="Git" width="60px" height="60px"
+        /></a>
+        <p>2022</p>
+        <a href="https://rs.school/js/"
+          ><img
+            src="./essets/img/rs_school_js.svg"
+            alt="rsschool"
+            width="240px"
+            height="40px"
+        /></a>
+      </div>
     </footer>
   </body>
 </html>
