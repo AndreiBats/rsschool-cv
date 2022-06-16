@@ -85,3 +85,21 @@ h2 {
 .information {
   padding: 50px;
 }
+
+.footer__git-logo {
+  width: 60px;
+  height: 60px;
+}
+
+.footer__rsschool-logo {
+  width: 240px;
+  height: 40px;
+}
+
+.projects__link {
+  font-size: 24px;
+  padding: 10px 20px;
+  line-height: 50px;
+  text-decoration: none;
+  color: black;
+}
