@@ -13,3 +13,17 @@
 - HTML
 - CSS
 - JS
+
+### Education:
+
+- Belarusian National Technical University
+
+### Experience:
+
+- Individual entrepreneur
+
+### Languages:
+
+- Belorussian
+- Russian
+- English
