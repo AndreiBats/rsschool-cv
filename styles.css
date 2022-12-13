@@ -1,0 +1,49 @@
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  color: black;
+  background-color: grey;
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header__list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.header__link {
+  font-size: 24px;
+  padding: 10px 20px;
+  line-height: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+.header__link:hover {
+  color: #00bcd4;
+  font-weight: bold;
+  border-bottom: #00bcd4 3px solid;
+  transition: 0.3s;
+}
+
+.information {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
