@@ -1,0 +1,105 @@
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  color: black;
+  background-color: grey;
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header__list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.header__link {
+  font-size: 24px;
+  padding: 10px 20px;
+  line-height: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+.header__link:hover {
+  color: #00bcd4;
+  font-weight: bold;
+  border-bottom: #00bcd4 3px solid;
+  transition: 0.3s;
+}
+
+.information {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.main__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .main__container {
+    display: block;
+  }
+}
+
+.profile {
+  grid-column: 1 / span 2;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.profile__photo {
+  border-radius: 50%;
+}
+
+.profile__description {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.information {
+  padding: 50px;
+}
+
+.footer__git-logo {
+  width: 60px;
+  height: 60px;
+}
+
+.footer__rsschool-logo {
+  width: 240px;
+  height: 40px;
+}
+
+.projects__link {
+  font-size: 24px;
+  padding: 10px 20px;
+  line-height: 50px;
+  text-decoration: none;
+  color: black;
+}
